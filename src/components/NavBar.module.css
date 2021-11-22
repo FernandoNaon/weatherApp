@@ -1,0 +1,28 @@
+.navBar {
+  background-color: rgba(80, 84, 87, 0.246);
+  height: 10vh;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 25px;
+  color: rgba(240, 248, 255, 0.877);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.navEl {
+  margin-left: 10px;
+  color: aliceblue;
+}
+
+.navEl:hover {
+  color: #6c666e73;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.searchBar {
+  margin-bottom: 20px;
+}

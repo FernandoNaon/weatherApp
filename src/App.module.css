@@ -1,0 +1,44 @@
+.App {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.bkg {
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(1px);
+  background-color: rgba(214, 48, 112, 0.185);
+}
+
+.container {
+  width: 70vw;
+  height: 80vh;
+  margin: 8vh 15vw;
+  top: 0;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr minmax(12rem, 20vh);
+  border-radius: 40px;
+}
+
+.app,
+.container {
+  background-image: url("./images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.citiesContainer {
+  display: flex;
+  height: 42vh;
+  background-color: #ffffff32;
+  backdrop-filter: blur(10px);
+  justify-content: space-evenly;
+}
+.nav {
+  display: flex;
+}
